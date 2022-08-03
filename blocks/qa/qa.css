@@ -6,9 +6,9 @@
 .qa .wrapper {
     background-color: black;
     flex-wrap: nowrap;
+
 }
 
 .wrapper .qa__ask {
     display: flex;
 }
-

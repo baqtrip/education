@@ -1,5 +1,6 @@
 .qa__ask {
     width: 1000px;
+    max-height: 419px;
     margin: 0 auto;
     background-color: white;
 }
