@@ -1,0 +1,6 @@
+.city__img {
+    position: absolute;
+    right: 40px;
+    bottom: 36px;
+    z-index: 1;
+}

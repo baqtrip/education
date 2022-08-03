@@ -1,0 +1,21 @@
+.info__card__img:first-child {
+    margin-right: 14px;
+    width: 488px;
+    height: 400px;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/img/learn.jpg");
+    
+}
+
+.info__card__img:last-child {
+    width: 488px;
+    height: 400px;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/img/learn_w_phone.jpg");
+}

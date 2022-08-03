@@ -1,0 +1,6 @@
+.educ {
+    margin: 0;
+    background-color: black;
+    width: 384px; /*почему-то дефолтная ширина как в макете не ставится*/
+    text-align: center;
+}

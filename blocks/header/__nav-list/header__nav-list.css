@@ -1,0 +1,10 @@
+.header__nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9px;
+}
+
+.header__nav {
+    width: 100%;
+}

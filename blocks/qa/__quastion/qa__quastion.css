@@ -1,0 +1,9 @@
+.qa__quastion {
+    margin: 0 auto;
+    color: white;
+    padding: 36px 0 36px 0;
+    border-bottom: 1px solid #787878;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+}

@@ -1,0 +1,14 @@
+.qa {
+    width: 100%;
+    height: 100%;
+}
+
+.qa .wrapper {
+    background-color: black;
+    flex-wrap: nowrap;
+}
+
+.wrapper .qa__ask {
+    display: flex;
+}
+

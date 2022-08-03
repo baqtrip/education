@@ -1,0 +1,27 @@
+.socials__link--vk {
+    background-image: url("/img/vk.png");
+}
+
+.socials__link--inst {
+    background-image: url("/img/instagram.png");
+}
+
+.socials__link--wc {
+    background-image: url("/img/whatsapp.png");
+}
+
+.socials {
+    display: flex;;
+    flex-direction: row;
+    gap: 16px;
+    margin-right: 31px;
+}
+
+.socials__link {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+

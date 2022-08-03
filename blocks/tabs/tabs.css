@@ -1,0 +1,27 @@
+.tabs {
+    margin: 50px 0 0 0;
+}
+
+.tabs__items {
+    display: flex ;
+}
+
+.tabs__item {
+    flex: 0 1 33.33333%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tabs__block {
+    padding: 20px;
+    display: none;
+}
+
+.tabs__block:target {
+    display: block;
+}
+
+

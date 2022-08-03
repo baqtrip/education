@@ -1,0 +1,9 @@
+.qa__quastion__title {
+    width: 940px;
+    margin: 128px 0 0 107px;
+    color: white;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 51px;
+    border-bottom: 1px solid gray;
+}
