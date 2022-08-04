@@ -21,7 +21,7 @@
 }
 
 .footer__online {
-background-image: url("/img/Ellipse.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+    background-image: url("/img/Ellipse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
