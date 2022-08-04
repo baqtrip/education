@@ -54,11 +54,16 @@
 @import url("../blocks/btn/__qa/btn__qa.css");
 @import url("../blocks/input/__qa/input__qa.css");
 @import url("../blocks/footer/footer.css");
-
-
-
-
-
+@import url("../blocks/qa/__space/qa__space.css");
+@import url("../blocks/contact/__number/_dark_theme/contact__number_dark_them.css");
+@import url("../blocks/footer/__link/_dark_theme/footer__link_dark_theme.css");
+@import url("../blocks/footer/__column/__subtitle/footer__column_subtitle.css");
+@import url("../blocks/footer/__column/footer__column.css");
+@import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__social/footer__social.css");
+@import url("../blocks/footer/__socials/footer__socials.css");
+@import url("../blocks/contact/__work-time/contact__work-yime.css");
+@import url("../blocks/footer/__choice/footer__choice.css");
 
 
 

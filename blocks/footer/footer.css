@@ -1,76 +1,27 @@
 .footer {
     height: 100;
-
     width: 100%;
 }
 
-.qa__space {
-    height: 100px;
-    max-width: 1216px;
-    background-color: black;
-    margin: 0 auto;
-}
-
 .footer .wrapper {
+    margin: 0 auto;
+    padding-bottom: 38px;
+    max-width: 1920px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-}
-
-.footer__column {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer__link-dark-theme {
-    color: white;
+    justify-content: center;
+    background-color: black;
 }
 
 .footer .wrapper {
     display: flex;
     flex-direction: row;
-    background-color: black;
+    
 }
 
-
-.footer__column__subtitle {
-
-    width: 210px;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 22px;
-    color: #787878;
-}
-
-.footer__column {
-    margin-right: 89px;
-    gap: 34px;
-}
-
-.footer__link {
-
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-}
-
-.footer__link {
-    width: 114px;
-}
-
-.contact__number_dark_theme {
-    color: white;
-}
-
-.footer__socials {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.footer__social {
-    display: flex;
-}
-
-.contact__work-time {
-    color: white;
+.footer__online {
+background-image: url("/img/Ellipse.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }

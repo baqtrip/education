@@ -7,10 +7,12 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url("/img/learn.jpg");
+    margin-right: 100px;
     
 }
 
 .info__card__img:last-child {
+    margin-left: 100px;
     width: 488px;
     height: 400px;
     display: inline-block;

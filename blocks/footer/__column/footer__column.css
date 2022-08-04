@@ -1,0 +1,6 @@
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 89px;
+    gap: 34px;
+}

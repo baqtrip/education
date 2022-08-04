@@ -1,0 +1,9 @@
+.footer__choice-help {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
