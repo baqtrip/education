@@ -6,11 +6,10 @@
 
 .diplom .wrapper {
     flex-direction: row;
+    justify-content: space-between;
 }
 
-.diplom__card {
-    margin-right: 209px;
-}
+.diplom__card {}
 
 .diplom__title {
     max-width: 519px;

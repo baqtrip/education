@@ -1,12 +1,10 @@
 .city__card {
-    width: 800px;
+    padding: 40px;
+    max-width: 800px;
+    width: 100%;
+    min-height: 496px;
     position: relative;
     background-image: url("/img/bluer.png");
     background-repeat: no-repeat;
     background-size: cover
 }
-
-
-
-
-

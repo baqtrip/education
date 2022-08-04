@@ -1,9 +1,8 @@
 .educ__list {
-    margin: 0 auto 40px;
-    width: 302px;
-    width: 302px;
- 
+    max-width: 302px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 7px;
+    row-gap: 16px;
+    column-gap: 7px;
 }

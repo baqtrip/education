@@ -1,6 +1,8 @@
 .qa__ask {
+    padding: 63px 73px 42px 56px;
     width: 1260px;
     max-height: 419px;
-    margin: 0 auto;
+    align-self: center;
     background-color: white;
+    justify-content: space-between;
 }

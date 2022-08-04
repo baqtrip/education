@@ -1,7 +1,6 @@
 .city__title {
-    margin: 40px 0 0 40px;
-    max-width: 506px;
+    max-width: 560px;
     font-weight: 800;
-font-size: 55px;
-line-height: 60px;
+    font-size: 55px;
+    line-height: 60px;
 }
