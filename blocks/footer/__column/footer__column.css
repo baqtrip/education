@@ -1,6 +1,17 @@
 .footer__column {
     display: flex;
     flex-direction: column;
-    margin-right: 89px;
-    gap: 34px;
+    flex-wrap: wrap;
+    max-width: 1216px;
+    width: 100%;
+    max-height: 200px;
+    gap: 29px;
+}
+
+@media (max-width: 328px) {
+    .footer__column {
+        max-width: 320px;
+        max-height: 1100px;
+        gap: 23px;
+    }
 }

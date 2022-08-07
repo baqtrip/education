@@ -1,0 +1,16 @@
+.diplom__title {
+    max-width: 696px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 51px;
+
+}
+
+@media (max-width: 328px) {
+    .diplom__title {
+        max-width: 320px;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 38px;
+    }
+}

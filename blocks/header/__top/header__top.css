@@ -5,3 +5,11 @@
     flex-direction: row;
     align-items: center;
 }
+
+@media (max-width: 328px) {
+    .header__top {
+        max-width: 320px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

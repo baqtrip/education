@@ -4,3 +4,11 @@
     font-size: 55px;
     line-height: 60px;
 }
+
+@media (max-width: 320px) {
+    .city__title {
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 38px;
+    }
+}

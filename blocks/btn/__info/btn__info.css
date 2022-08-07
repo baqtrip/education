@@ -5,3 +5,9 @@
     border-radius: 4px;
     max-width: 279px;
 }
+
+@media (max-width: 328px) {
+    .btn__info {
+        order: 2;
+    }
+}

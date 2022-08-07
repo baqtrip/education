@@ -1,6 +1,11 @@
 .input {
     padding: 12px 50px;
     background: #F2F2F2;
-border-radius: 4px;
-margin-bottom: 31px;
+    border-radius: 4px;
+    margin-bottom: 31px;
+}
+
+.label {
+    display: flex;
+    flex-wrap: nowrap;
 }

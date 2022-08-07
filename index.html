@@ -140,6 +140,40 @@
                 </li>
             </ul>
         </section>
+        <section class="feed">
+            <div class="wrapper">
+                <h2 class="feed__title">Отзывы реальных
+                    студентов</h2>
+                <div class="feed__block">
+                    <div class="feed__card">
+                        <p class="feed__back">Рассказать могу много, но это будет субъективный рассказ, потому что я
+                            учился на профиле, который все почему-то обходят) Ты собираешься поступать на бакалавриат
+                            или уже в магистратуру?
+                            Вообще не было ощущения, что тебе просто дали доступ к материалу и ты сидишь один дома и
+                            просто самостоятельно все изучаешь. Спринты, дедлайны... даже не знаю как все описать, но
+                            это было совсем по другому. В slack постоянно была какая-то активность. От всех
+                            чувствовалась поддержка, как от команды практикума, так и от ребят.</p>
+
+                    </div>
+                    <div class="feed__card">
+                        <p class="feed__back">Мне за время учебы удалось почувствовать себя сотрудником на удаленке.
+                            Отпуск в тайланд совпал со вторым сборным проектом. Ох эта атмосфера! Бассейн, солнце,
+                            манго, ноутбук с проектом, Марина Левушкина, напоминающая о дедлайне)))!
+
+                            Вспоминаю это все с восторгом! Оказалось, работать на удаленке не так то и просто!)</p>
+
+                    </div>
+                    <div class="feed__card">
+                        <p class="feed__back">Мне за время учебы удалось почувствовать себя сотрудником на удаленке.
+                            Отпуск в тайланд совпал со вторым сборным проектом. Ох эта атмосфера! Бассейн, солнце,
+                            манго, ноутбук с проектом, Марина Левушкина, напоминающая о дедлайне)))!
+
+                            Вспоминаю это все с восторгом! Оказалось, работать на удаленке не так то и просто!)</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="diplom">
             <div class="wrapper">
                 <div class="diplom__card">
@@ -148,12 +182,11 @@
                         имеют госаккредитацию, а дипломы заносятся
                         в федеральный реестр.</p>
                     <div class="tabs">
-                        <nav class="tabs__items">
-                            <!--Сделать ЮЛ-->
-                            <button class="tabs__item">Высшее</button>
-                            <button class="tabs__item">Среднее</button>
-                            <button class="tabs__item">ДПО</button>
-                        </nav>
+                        <ul class="tabs__items">
+                            <li> <button class="tabs__item tabs__item_active">Высшее</button></li>
+                            <li> <button class="tabs__item">Среднее</button></li>
+                            <li> <button class="tabs__item">ДПО</button></li>
+                        </ul>
                         <div id="tab_01" class="tabs__block">
                             Высшее
                         </div>
@@ -223,19 +256,20 @@
                     </div>
                     <div class="qa__ask__column">
                         <form action="#" class="form" method="post">
-                            <label for="name-field">Как вас зовут?</label>
+                            <label class="label" for="name-field">Как вас зовут?</label>
                             <input class="input" type="text" name="name" id="name-field" placeholder="Иван Иванов">
-                            <label for="number-field">Ваш телефон</label>
+                            <label class="label" for="number-field">Ваш телефон</label>
                             <input class="input" type="text" name="name" id="number-field">
-                            <p class="qa__person">Нажимая кнопку “Задать вопрос”, Вы соглашаетесь с
-                                <a class="qa__person__link" href="#" target="_blank">условиями обработки персональных
-                                    данных</a></a>
-                            </p>
+                        </form>
+                        <p class="qa__person">Нажимая кнопку “Задать вопрос”, Вы соглашаетесь с
+                            <a class="qa__person__link" href="#" target="_blank">условиями обработки персональных
+                                данных</a></a>
+                        </p>
                     </div>
                     <div class="qa__ask__column">
                         <p class="qa__name">Напишите свои вопросы:</p>
 
-                        <textarea class="input input__qa" name="comment" id="comment-field" rows="10">
+                        <textarea class="input input__text" name="comment" id="comment-field">
                             </textarea>
                         </form>
                         <button class="btn btn__qa">Задать вопрос</button>
@@ -247,7 +281,7 @@
         <footer class="footer">
             <div class="wrapper">
                 <ul class="footer__column">
-                    <li>
+                    <li class="footer__logo">
                         <a href="#" class="logo-link">
                             <img class="logo" alt="Логотип." src="./img/logo-footer.svg">
                         </a>
@@ -258,8 +292,7 @@
                     <li class="footer__link">
                         <a href="#" class="footer__link footer__link_dark_theme">Политика конфиденциальности</a>
                     </li>
-                </ul>
-                <ul class="footer__column">
+
                     <li class="footer__link">
                         <a href="#" class="footer__link footer__link_dark_theme">Направления</a>
                     </li>
@@ -272,8 +305,7 @@
                     <li class="footer__link">
                         <a href="#" class="footer__link footer__link_dark_theme">Профессии</a>
                     </li>
-                </ul>
-                <ul class="footer__column">
+
                     <li class="footer__link">
                         <a href="#" class="footer__link footer__link_dark_theme">Как поступить</a>
                     </li>
@@ -286,8 +318,7 @@
                     <li class="footer__link">
                         <a href="#" class="footer__link footer__link_dark_theme">Полезные статьи</a>
                     </li>
-                </ul>
-                <ul class="footer__column">
+
                     <li class="footer__link"><a href="#" class="footer__link footer__link_dark_theme">Партнёрам</a>
                     </li>
                     <li class="footer__link"><a href="#" class="footer__link footer__link_dark_theme">Шансы по
@@ -296,8 +327,7 @@
                     </li>
                     <li class="footer__link"><a href="#" class="footer__link footer__link_dark_theme">Подать
                             документы</a></li>
-                </ul>
-                <ul class="footer__socials">
+
                     <span class="contact__number contact__number_dark_theme">+7 (902) 311 36 64</span>
                     <span class="contact__work-time">Рабочее время:
                         Пн — Пт с 9.00 до 19.00</span>

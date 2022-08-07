@@ -1,0 +1,10 @@
+.footer__logo {
+    max-width: 152px;
+}
+
+@media (max-width: 320px) {
+    .footer__logo {
+        max-width: 133px;
+        align-self: center;
+    }
+}

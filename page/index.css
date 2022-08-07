@@ -65,8 +65,22 @@
 @import url("../blocks/contact/__work-time/contact__work-yime.css");
 @import url("../blocks/footer/__choice/footer__choice.css");
 @import url("../blocks/page/page.css");
-
-
+@import url("../blocks/diplom/__img/diplom__img.css");
+@import url("../blocks/diplom/__subtitle/diplom__subtitle.css");
+@import url("../blocks/diplom/__title/diplom__title.css");
+@import url("../blocks/diplom/__card/diplom__card.css");
+@import url("../blocks/tabs/__block/tabs__block.css");
+@import url("../blocks/tabs/__item/_active/tabs__item_active.css");
+@import url("../blocks/tabs/__item/tabs__item.css");
+@import url("../blocks/tabs/__items/tabs__items.css");
+@import url("../blocks/feed/feed.css");
+@import url("../blocks/feed/__block/feed__block.css");
+@import url("../blocks/feed/__card/feed__card.css");
+@import url("../blocks/feed/__title/feed__title.css");
+@import url("../blocks/footer/__logo/footer__logo.css");
+@import url("../blocks/feed/__back/feed__back.css");
+@import url("../blocks/info/__cards/info__cards.css");
+@import url("../blocks/input/__text/input__text.css");
 
 
 

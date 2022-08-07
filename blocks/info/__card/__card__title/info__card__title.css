@@ -4,3 +4,8 @@
     font-weight: 700;
     line-height: 51px;
 }
+
+.info__card__title:nth-last-child(2n) {
+    max-width: 250px;
+
+}

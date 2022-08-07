@@ -1,8 +1,16 @@
 .qa__ask {
-    padding: 63px 73px 42px 56px;
-    width: 1260px;
-    max-height: 419px;
+    padding: 63px 73px 42px;
+    max-width: 1260px;
+    width: 100%;
     align-self: center;
     background-color: white;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 328px) {
+    .qa__ask {
+        max-width: 320px;
+        padding: 24px;
+    }
 }

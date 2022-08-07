@@ -3,19 +3,9 @@
 
 }
 
-.info__cards {
-    margin-bottom: 128px;
-    display: flex;
-    justify-content: space-between;
-    /* Хз, но почему-то свойство не работает, поэтому поставлю марджин*/
-}
+
 
 .info__card__block {
     display: flex;
     flex-direction: column;
-    margin-right: 100px;
-}
-
-.info__card__block:last-child {
-    margin-left: 100px;
 }

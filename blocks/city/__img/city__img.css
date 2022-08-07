@@ -4,3 +4,9 @@
     bottom: 36px;
     z-index: 1;
 }
+
+@media (max-width: 320px) {
+    .city__img {
+        max-width: 112px;
+    }
+}

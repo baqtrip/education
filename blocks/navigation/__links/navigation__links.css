@@ -1,6 +1,9 @@
 .navigation__links {
+    padding: 36px 0 46px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 80px;
+    border-top: 1px solid #DFDFDE;
+    border-bottom: 1px solid #DFDFDE;
 }

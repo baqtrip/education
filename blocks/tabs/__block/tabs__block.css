@@ -1,0 +1,8 @@
+.tabs__block {
+    padding: 20px;
+    display: none;
+}
+
+.tabs__block:target {
+    display: block;
+}

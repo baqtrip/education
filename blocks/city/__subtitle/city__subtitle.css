@@ -5,3 +5,13 @@
     font-size: 22px;
     line-height: 40px;
 }
+
+
+
+@media (max-width: 320px) {
+    .city__subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}

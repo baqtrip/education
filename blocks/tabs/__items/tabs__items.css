@@ -1,0 +1,7 @@
+.tabs__items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 502px;
+    border-bottom: 1px solid #DFDFDE;
+
+}

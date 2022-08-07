@@ -8,3 +8,9 @@
     background-repeat: no-repeat;
     background-size: cover
 }
+
+@media (max-width: 320px) {
+    .city__card {
+        padding: 24px;
+    }
+}

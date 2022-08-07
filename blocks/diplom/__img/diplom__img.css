@@ -1,0 +1,9 @@
+.diplom__img {
+    max-width: 488px;
+}
+
+@media (max-width: 328px) {
+    .diplom__img {
+        max-width: 320px;
+    }
+}
