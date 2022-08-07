@@ -1,4 +1,4 @@
 .tabs__item_active {
-    font-weight: 600;
-    color: black;
+    font-weight: 600 !important;
+    color: black !important;
 }

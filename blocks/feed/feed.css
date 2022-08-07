@@ -15,3 +15,70 @@
 
     }
 }
+
+.feed__back {
+    padding: 33px 39px 0 40px;
+    max-height: 300px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.feed__profile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    width: 100%;
+}
+
+.photos {
+    display: flex;
+
+}
+
+.feed__profile__avatar {
+    z-index: 109;
+}
+
+.feed__profile__social {
+    z-index: 1;
+    transform: translateX(-12px);
+}
+
+.name {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 1px;
+}
+
+.education {
+    margin-bottom: 12px;
+    display: block;
+    font-size: 13px;
+    line-height: 22px;
+    color: #787878;
+
+}
+
+.ad-btn {
+    padding: 4px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 22px;
+    color: red;
+    width: 100%;
+    z-index: 9999;
+}
+
+.profile__content {
+    display: flex;
+    flex-direction: column;
+}

@@ -9,3 +9,17 @@
     display: flex;
     flex-direction: column;
 }
+
+.btn__info__hidden {
+    display: none;
+}
+
+@media (max-width: 320px) {
+    .btn__info__hidden {
+        display: block !important;
+    }
+
+    .btn__info {
+        display: none;
+    }
+}
